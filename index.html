@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Furnishings Pvt. Ltd.</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            background: #eef2f5;
+            color: #2f3a45;
+        }
+
+        header {
+            background: #cfd8e4;
+            padding: 25px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #b6c0cc;
+        }
+
+        header h1 {
+            font-size: 28px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            color: #1f2a34;
+        }
+
+        nav a {
+            margin-left: 25px;
+            text-decoration: none;
+            color: #3b4a59;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #1a2733;
+        }
+
+        .hero {
+            background: url('https://images.unsplash.com/photo-1616628182507-22882e0e4a10?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+            height: 65vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            max-width: 700px;
+            text-shadow: 0 4px 12px rgba(0,0,0,0.4);
+        }
+
+        .section-title {
+            text-align: center;
+            margin: 60px 0 20px;
+            font-size: 34px;
+            font-weight: 600;
+            color: #2f3a45;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            padding: 0 40px 60px;
+        }
+
+        .product-card {
+            background: #ffffff;
+            width: 280px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+            transition: 0.3s;
+            text-align: center;
+        }
+
+        .product-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        footer {
+            background: #cfd8e4;
+            padding: 25px;
+            text-align: center;
+            border-top: 1px solid #b6c0cc;
+            margin-top: 40px;
+        }
+
+        footer p {
+            color: #2f3a45;
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Apex Furnishings Pvt. Ltd.</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Collections</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Elevate Your Space with Cool, Modern & Minimalist Furnishings</h2>
+    </section>
+
+    <h2 class="section-title">Featured Products</h2>
+
+    <section class="products">
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=600&q=60" alt="Blue Sofa">
+            <h3>Arctic Blue Sofa</h3>
+            <p>Modern comfort meets cool-toned elegance.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1616628182937-a318e40add7c?auto=format&fit=crop&w=600&q=60" alt="Chair">
+            <h3>Frosted Grey Lounge Chair</h3>
+            <p>Sleek design with premium craftsmanship.</p>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=60" alt="Lamp">
+            <h3>IceGlow Lamp</h3>
+            <p>Soft cool lighting for serene interiors.</p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2025 Apex Furnishings Pvt. Ltd. — All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
